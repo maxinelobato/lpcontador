@@ -1,6 +1,7 @@
 import { ChakraProvider, extendTheme, ThemeConfig } from '@chakra-ui/react';
 import type { AppProps, NextWebVitalsMetric } from 'next/app';
 import Head from 'next/head';
+import { ScrollCtaWhatsapp } from '../components/ScrollCtaWhatsapp';
 
 const config: ThemeConfig = {
   initialColorMode: 'dark',
@@ -24,6 +25,7 @@ function MyApp({ Component, pageProps }: AppProps) {
         {/* <link rel="preload" href="/img/bgImage.webp" as="image" />
         <link rel="preload" href="/img/image.webp" as="image" /> */}
       </Head>
+      <ScrollCtaWhatsapp />
       <Component {...pageProps} />
     </ChakraProvider>
   );

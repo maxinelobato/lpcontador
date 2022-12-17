@@ -1,5 +1,5 @@
 import { Icon, IconButton, Link, Stack, Tooltip } from '@chakra-ui/react';
-import { FaWhatsapp } from 'react-icons/fa';
+import { WhatsappLogo } from 'phosphor-react';
 
 export function ScrollCtaWhatsapp() {
   return (
@@ -44,7 +44,7 @@ export function ScrollCtaWhatsapp() {
             }}
             isRound
           >
-            <Icon as={FaWhatsapp} w={8} h={8} />
+            <Icon as={WhatsappLogo} w={8} h={8} />
           </IconButton>
         </Link>
       </Tooltip>
