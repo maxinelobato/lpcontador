@@ -22,8 +22,8 @@ const Feature = ({ text, icon, iconBg }: FeatureProps) => {
 
 export function AboutWork() {
   return (
-    <Stack minH={'50vh'} direction={{ base: 'column', md: 'row' }}>
-      <Flex p={8} flex={1} align="center" justify="center">
+    <Stack minH={'100vh'} direction={{ base: 'column', md: 'row' }}>
+      <Flex flex={1} align="center" justify="center">
         <Stack spacing={6} w={'full'} maxW={'lg'}>
           <Heading fontSize={{ base: '3xl', md: '4xl', lg: '5xl' }}>
             <Text as="span" position="relative" align="left">
@@ -57,12 +57,12 @@ export function AboutWork() {
               text="Montamos um Plano de Ação de acordo com a necessidade da sua Empresa"
             />
           </Stack>
-          <Stack direction={{ base: 'column', md: 'row' }} spacing={4}>
+          <Stack direction={{ base: 'column', md: 'row' }} spacing={4} py={2}>
             <ButtonCta />
           </Stack>
         </Stack>
       </Flex>
-      <Flex flex={1} align="center">
+      <Flex flex={1}>
         <Image
           maxH="100%"
           maxW="100%"
