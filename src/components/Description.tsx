@@ -33,9 +33,9 @@ function StatsCard(props: StatsCardProps) {
       py={5}
       backdropFilter="auto"
       backdropBlur="1rem"
-      bgColor="whiteAlpha.50"
+      bgGradient="linear(to-r, transparent, whiteAlpha.50)"
       shadow="xl"
-      border="1px solid"
+      borderBottom="2px solid"
       borderColor="whiteAlpha.200"
       rounded="lg"
     >
@@ -68,7 +68,7 @@ export function Description() {
       textAlign={'center'}
       spacing={{ base: 8, md: 14 }}
       py={{ base: 4, md: 14, lg: 0 }}
-      mt={[0, 0, -28]}
+      mt={[0, 0, -32]}
     >
       <SimpleGrid columns={{ base: 2, md: 5 }} spacing={{ base: 5, lg: 5 }}>
         <StatsCard
