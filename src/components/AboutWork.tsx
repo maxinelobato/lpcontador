@@ -30,11 +30,11 @@ export function AboutWork() {
               Entenda como podemos
             </Text>{' '}
             {''}
-            <Text color={'blue.400'} as={'span'}>
+            <Text color={'blue.200'} as={'span'} textShadow="#000 1px 1px">
               ajudar sua empresa
             </Text>{' '}
           </Heading>
-          <Text fontSize={{ base: 'md', lg: 'lg' }} color={'gray.500'}>
+          <Text fontSize={{ base: 'md', lg: 'lg' }} color={'whiteAlpha.700'}>
             A prioridade da Contabilidade Tributária é lhe auxiliar da melhor forma,
             evitando problemas com o Governo relacionados a impostos abusivos e várias
             outras investidas despercebidas pela maioria das empresas
