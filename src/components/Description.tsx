@@ -52,7 +52,7 @@ function StatsCard(props: StatsCardProps) {
           </StatNumber>
         </Box>
         <VStack>
-          <Box pt={6} my={'auto'} color="whiteAlpha.800">
+          <Box pt={6} my={'auto'} color="blue.200">
             {icon}
           </Box>
         </VStack>
@@ -92,8 +92,8 @@ export function Description() {
           icon={<CircleWavyCheck size={'3em'} />}
         />
         <StatsCard
-          title={'Gestão'}
-          stat={'Tributária'}
+          title={'Análise'}
+          stat={'Financeira'}
           icon={<ChartLineUp size={'3em'} />}
         />
       </SimpleGrid>
